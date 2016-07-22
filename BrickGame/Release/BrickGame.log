@@ -1,0 +1,29 @@
+﻿生成启动时间为 2016/7/22 23:32:36。
+     1>项目“D:\MyCSProjects\Win32Projects\BrickGame\BrickGame.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Release\BrickGame.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\BrickGame.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Bricks.cpp BrickGame.cpp GameControl.cpp GraphicsManager.cpp
+         Bricks.cpp
+         BrickGame.cpp
+     1>BrickGame.cpp(166): warning C4101: “speed”: 未引用的局部变量
+         GameControl.cpp
+         GraphicsManager.cpp
+       ResourceCompile:
+         C:\Program Files\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\BrickGame.res" BrickGame.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MyCSProjects\Win32Projects\Release\BrickGame.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\MyCSProjects\Win32Projects\Release\BrickGame.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MyCSProjects\Win32Projects\Release\BrickGame.lib" /MACHINE:X86 /SAFESEH Release\BrickGame.res
+         Release\Bricks.obj
+         Release\BrickGame.obj
+         Release\GameControl.obj
+         Release\GraphicsManager.obj
+         Release\stdafx.obj
+         正在生成代码
+         All 84 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         已完成代码的生成
+         BrickGame.vcxproj -> D:\MyCSProjects\Win32Projects\Release\BrickGame.exe
+     1>已完成生成项目“D:\MyCSProjects\Win32Projects\BrickGame\BrickGame.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:17.54

@@ -1,0 +1,19 @@
+﻿生成启动时间为 2015/11/22 10:19:55。
+     1>项目“D:\MyCSProjects\Win32Projects\BrickGame\BrickGame.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\BrickGame.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt BrickGame.cpp
+         BrickGame.cpp
+     1>d:\mycsprojects\win32projects\brickgame\brickgame.cpp(166): warning C4101: “speed”: 未引用的局部变量
+       Link:
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MyCSProjects\Win32Projects\Debug\BrickGame.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\MyCSProjects\Win32Projects\Debug\BrickGame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MyCSProjects\Win32Projects\Debug\BrickGame.lib" /MACHINE:X86 Debug\BrickGame.res
+         Debug\Bricks.obj
+         Debug\BrickGame.obj
+         Debug\GameControl.obj
+         Debug\GraphicsManager.obj
+         Debug\stdafx.obj
+         BrickGame.vcxproj -> D:\MyCSProjects\Win32Projects\Debug\BrickGame.exe
+     1>已完成生成项目“D:\MyCSProjects\Win32Projects\BrickGame\BrickGame.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:04.32
